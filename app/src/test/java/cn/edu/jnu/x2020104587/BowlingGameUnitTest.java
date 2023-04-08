@@ -14,10 +14,13 @@ import junit.framework.TestCase;
 public class BowlingGameUnitTest extends TestCase {
     @Test
     public void test20Zeros() throws Exception {
-        BowlingGame game=new BowlingGame();
-        for(int i=0;i<20;i++)
-        {
+        BowlingGame game = new BowlingGame();
+        for (int i = 0; i < 20; i++) {
             game.roll(0);
         }
-        assertEquals(0,game.score());
+        assertEquals(0, game.score());
     }
+    public void testAllOnes() throws Exception{
+
+    }
+}
