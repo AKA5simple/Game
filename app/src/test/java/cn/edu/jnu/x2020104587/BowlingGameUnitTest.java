@@ -45,6 +45,8 @@ public class BowlingGameUnitTest extends TestCase {
         assertEquals(24,game.score());
     }
     public void testPerfectGame() throws Exception{
+        rollMany(12,10);
+        assertEquals(300,game.score());
     }
     private void rollStrike()
     {
