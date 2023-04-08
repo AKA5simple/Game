@@ -37,6 +37,9 @@ public class BowlingGameUnitTest extends TestCase {
         rollMany(17,0);
         assertEquals(16,game.score());
     }
+    public void testOneStrike() throws Exception{
+
+    }
     private void rollSpace()
     {
         game.roll(5);
